@@ -38,13 +38,13 @@ function handleResponsiveFilterItems() {
 document.addEventListener('DOMContentLoaded', () => {
     const heroImagesContainer = document.getElementById('hero-images-container');
     const heroImagePaths = [
-        'assets/images/hero/amsterdam-hero.jpg',
-        'assets/images/hero/bayahibe-hero.jpg',
-        'assets/images/hero/paris-hero.jpg',
-        'assets/images/hero/rio-hero.jpg',
-        'assets/images/hero/barcelona-hero.jpg',
-        'assets/images/hero/peru-hero.jpeg',
-        'assets/images/hero/roma-hero.jpg',
+        'assets/images/hero/amsterdam-hero.webp',
+        'assets/images/hero/bayahibe-hero.webp',
+        'assets/images/hero/paris-hero.webp',
+        'assets/images/hero/rio-hero.webp',
+        'assets/images/hero/barcelona-hero.webp',
+        'assets/images/hero/peru-hero.webp',
+        'assets/images/hero/roma-hero.webp',
     ];
     
     const allHeroImages = [...heroImagePaths, ...heroImagePaths];
@@ -62,48 +62,48 @@ document.addEventListener('DOMContentLoaded', () => {
             titulo: 'Paquete 1: Europa',
             descripcion: 'Un recorrido por los destinos más emblemáticos de Europa. Descubre la historia y la belleza de España, Francia e Italia, visitando ciudades como Madrid, París, Amsterdam y Roma.',
             fotos: [
-                'assets/images/package/package-fontana.jpg',
-                'assets/images/europa/barcelona.jpg',
-                'assets/images/europa/pisa.jpg',
-                'assets/images/europa/roma.jpg',
-                'assets/images/europa/amsterdam.jpg',
-                'assets/images/europa/paris.jpg'
+                'assets/images/package/package-fontana.webp',
+                'assets/images/europa/barcelona.webp',
+                'assets/images/europa/pisa.webp',
+                'assets/images/europa/roma.webp',
+                'assets/images/europa/amsterdam.webp',
+                'assets/images/europa/paris.webp'
             ]
         },
         '2': {
             titulo: 'Paquete 2: Caribe',
             descripcion: 'Disfruta de playas paradisíacas, aguas cristalinas y un ambiente de relajación total en el corazón del Caribe y Centroamérica. Destinos como Punta Cana, Playa del Carmen, Bayahibe, Cancún y Cartagena.',
             fotos: [
-                'assets/images/package/package-bayahibe.jpg',
-                'assets/images/caribe/punta-cana.jpg',
-                'assets/images/caribe/chichen-itza.jpg',
-                'assets/images/caribe/cartagena.jpg',
-                'assets/images/caribe/tortugas.jpg',
-                'assets/images/caribe/cancun.jpg'
+                'assets/images/package/package-bayahibe.webp',
+                'assets/images/caribe/punta-cana.webp',
+                'assets/images/caribe/chichen-itza.webp',
+                'assets/images/caribe/cartagena.webp',
+                'assets/images/caribe/tortugas.webp',
+                'assets/images/caribe/cancun.webp'
             ]
         },
         '3': {
             titulo: 'Paquete 3: Perú',
             descripcion: 'Explora la rica historia y paisajes de Perú, desde las antiguas ruinas de Machu Picchu hasta la vibrante vida de Lima.',
             fotos: [
-                'assets/images/package/package-peru.jpeg',
-                'assets/images/peru/machu_picchu.jpg',
-                'assets/images/peru/cerro.jpg',
-                'assets/images/peru/telar.jpg',
-                'assets/images/peru/cuatriciclo.jpeg',
-                'assets/images/peru/machu_picchu2.jpeg',
+                'assets/images/package/package-peru.webp',
+                'assets/images/peru/machu_picchu.webp',
+                'assets/images/peru/cerro.webp',
+                'assets/images/peru/telar.webp',
+                'assets/images/peru/cuatriciclo.webp',
+                'assets/images/peru/machu_picchu2.webp',
             ]
         },
         '4': {
             titulo: 'Paquete 4: Brasil',
             descripcion: 'Descubre la alegría y la cultura de Brasil. Explora las playas de Copacabana e Ipanema, visita el Cristo Redentor y el Pan de Azúcar. Este paquete incluye vuelos y tours por los puntos turísticos más importantes.',
             fotos: [
-                'assets/images/package/package-rio.jpeg',
-                'assets/images/brasil/cristo-redentor.jpg',
-                'assets/images/brasil/rio.jpg',
-                'assets/images/brasil/playa.jpg',
-                'assets/images/brasil/florianopolis.jpg',
-                'assets/images/brasil/escaleras.jpg',
+                'assets/images/package/package-rio.webp',
+                'assets/images/brasil/cristo-redentor.webp',
+                'assets/images/brasil/rio.webp',
+                'assets/images/brasil/playa.webp',
+                'assets/images/brasil/florianopolis.webp',
+                'assets/images/brasil/escaleras.webp',
             ]
         }
     };
