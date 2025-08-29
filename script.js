@@ -23,6 +23,7 @@ function equalizeFilterItemSizes() {
 
 function handleResponsiveFilterItems() {
     const mobileMediaQuery = window.matchMedia('(max-width: 768px)');
+    const notebookMediaQuery = window.matchMedia('(max-width: 1400px) and (min-width: 993px)');
 
     if (mobileMediaQuery.matches) {
         const filterItems = document.querySelectorAll('.filter-item');
@@ -30,6 +31,8 @@ function handleResponsiveFilterItems() {
             item.style.width = 'auto';
             item.style.height = 'auto';
         });
+    } else if (notebookMediaQuery.matches) {
+        equalizeFilterItemSizes();
     } else {
         equalizeFilterItemSizes();
     }
@@ -46,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'assets/images/hero/peru-hero.webp',
         'assets/images/hero/roma-hero.webp',
     ];
-    
+
     const allHeroImages = [...heroImagePaths, ...heroImagePaths];
 
     for (const path of allHeroImages) {
